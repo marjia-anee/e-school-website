@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-School</title>
@@ -11,115 +11,301 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-</head>
-<body>
-    <!--Navbar section statrs-->
-    <section class="container-1">
-     <nav class="navbar navbar-expand-lg navbar-light">
+ </head>
+
+ <!--navbar starts-->
+ <body>
+   <div class="container-fluid">
+   <div class="row">
+     <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="color" >
         <a class="navbar-brand" href="#">
-            <img class="logo" src="images/ICON/Logo.png" alt="">
+          <img src="images/ICON/Logo.png" alt="logo" class="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cources">Cources</a>
+              <a class="nav-link" href="#">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#others">Others</a>
+              <a class="nav-link" href="#">Others</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link" href="#">Blogs</a>
             </li>
             <li class="nav-item">
-                <button type="button" class="btn btn-success">Sign in</button>
+              <a class="nav-link btn btn-outline-success" href="#">Sign in</a>
             </li>
           </ul>
-         </div>
-       </nav>
-       
-    </section>
-   
-   <!--Navbar section ends-->
+        </div>
+      </nav>
+     </div>
+   </div>
+   </div>
+  
 
-   <!-- 1st Header section statrs-->
-
-   <section class="container-2">
-    <div class="row">
-       <div class="row align-items-center">
-          <div class="left-header col-md-6">
-              <h6>Are you ready to learn?</h6>
-              <h1>Learn With fun <br> on <span class="text-color">any schedule</span></h1>
-              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Eius aut neque minus sunt.</p>
-              <button type="button" class="btn btn-success">Get Started</button>
-            </div>
-       
-          <div class="right-header col-md-6">
-             <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
-          </div>
-       </div>
+<!--Banner Section-->
+<div class="container">
+  <div class="row" id="color">
+    <div class="col-md-6">
+      <div class="container banner">
+        <p style="color: red;">Are you ready to learn?</p>
+        <h1>
+          Learn With fun on
+          <br>
+          <span style="color: #00bc78;">any schedule</span>
+        </h1>
+        <p>
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, nisi nemo necessitatibus iste, accusamus est sunt sapiente.
+        </p>
+        <br>
+        <br>
+        <a type="button" class="btn btn-lg btn-success" >Get Started</a>
+      </div>
     </div>
-    </section>
+    <div class="col-md-6 d-flex justify-content-between">
+      <img class="illustrate-image" src="images/Photos/Illustration.png" alt="">
+
+    </div>
+
+  </div>
+</div>
 
 
+  <!--Category Section starts-->
 
-   <!--Header section ends-->
-
-   <!--2nd header section starts-->
-       <section container-3>
-        <div class="row row-cols-1 row-cols-md-4">
-            <div class="col mb-3">
-              <div class="card">
-                <img src="images/ICON/book.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+  <div class="container mt-5 mb-40">
+    <div class="row justify-content-center">
+        <div class="card-deck">
+            <div class="card cat-card">
+              <img class="card-img-top img-top" style="height:61px;" src="images/ICON/book.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">1500+ Topics</h5>
+                Learn Anything
               </div>
             </div>
-            <div class="col mb-3">
-              <div class="card">
-                <img src="images/ICON/Student.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+            <div class="card cat-card">
+              <img class="card-img-top img-top" src="images/ICON/Student.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title cat-title">1800+ Students</h5>
+                Learn Anything
               </div>
             </div>
-            <div class="col mb-3">
-              <div class="card">
-                <img src="images/ICON/Test.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
+            <div class="card cat-card">
+              <img class="card-img-top img-top" src="images/ICON/Test.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title cat-title">9K+ Test Token</h5>
+               Learn Anything
               </div>
             </div>
-            <div class="col mb-3">
-              <div class="card">
-                <img src="images/ICON/Students.png" class="card-img-top" alt="...">
+            <div class="card cat-card">
+                <img class="card-img-top img-top" src="images/ICON/Students.png" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title cat-title">2000+ Student</h5>
+                  Learn Anything
                 </div>
-              </div>
             </div>
-          </div>   
-
-       </section>
-
-
-
-   <!--2nd header section ends-->
+        </div>
+            
+    </div>
+</div>
 
 
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+
+  <!--Course section stars-->
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="Headline"> Online Courses</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="images/Photos/Morder pyschology.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Modern Psycology</h5>
+                
+                   Designation | Courses <br><br>
+                    <a type="button" class="btn btn-success" href="#">Buy Course</a>
+                </div>
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-md-6 ">
+                            <img class="icon-img" src="images/ICON/calendar.png" alt=""> Start 20, April 2021
+                        </div>
+                        <div class="col-md-6">
+                            <img class="icon-img" src="images/ICON/people.png" alt=""> 80 Seats
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/Photos/Morder psyc.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Modern Psycology</h5>
+                
+                   Designation | Courses <br><br>
+                    <a type="button" class="btn btn-success" href="#">Buy Course</a>
+                </div>
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-md-6 ">
+                            <img class="icon-img" src="images/ICON/calendar.png" alt=""> Start 20, April 2021
+                        </div>
+                        <div class="col-md-6">
+                            <img class="icon-img" src="images/ICON/people.png" alt=""> 80 Seats
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/Photos/Morder pychons.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Modern Psycology</h5>
+                
+                   Designation | Courses <br><br>
+                    <a type="button" class="btn btn-success" href="#">Buy Course</a>
+                </div>
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <img class="icon-img" src="images/ICON/calendar.png" alt="">Start 20, April 2021
+                        </div>
+                        <div class="col-md-6">
+                            <img class="icon-img" src="images/ICON/people.png" alt=""> 80 Seats
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Testimonial section-->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="Headline">Testimonial</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 justify-content-center">
+      <div id="carouselExampleControls" class="carousel slide pointer-event" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container mt-5">
+                <div class="media p-5">
+                  <img src="images/Photos/Man.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px; height: 100px;">
+                  <div class="media-body">
+                    <h4>John Doe <small><i>Posted on February 19, 2019</i></small></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container mt-5">
+                <div class="media p-5">
+                  <img src="images/Photos/peter.png" alt="Peter" class="mr-3 mt-3 rounded-circle" style="width:100px; height: 100px;">
+                  <div class="media-body">
+                    <h4>Peter <small><i>Posted on January 27, 2018</i></small></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<!--Footer section-->
+<footer>
+  <div class="container-fluid mt-5">
+
+      <div class="row">
+          <div class="container mt-4">
+              <div class="row">
+                  <div class="col-sm-3 ">
+                      <p>Cumque nobis fugiat, mollitia quasi eligendi reiciendis. Illum, reiciendis! Soluta fuga, rerum beatae dolor aspernatur quaerat quidem totam! Fugiat ullam excepturi facilis.</p>
+                  </div>
+                  <div class="col-sm-3">
+                      <h5 class="Footer-headlink">Courses</h5>
+                      <hr>
+
+                      <div class="container">
+                          <div class="row justify-content-start">
+                             <ul>
+                                  <li><a href="#">Web Design</a></li>
+                                  <li><a href="#">Web Developer</a></li>
+                                  <li><a href="#">Engineering</a></li>
+                                  <li><a href="#">Graphics Design</a></li>
+                                  <li><a href="#">Others</a></li>
+                              </ul>  
+                          </div>
+                      </div>
+                              
+                  </div>
+                  <div class="col-sm-3">
+                      <h5 class="Footer-headlink">Terms &amp; Condition</h5>
+                      <hr>
+                      <div class="container">
+                          <div class="row justify-content-start">
+                             <ul>
+                                  <li><a href="#">Web Design</a></li>
+                                  <li><a href="#">Web Developer</a></li>
+                                  <li><a href="#">Engineering</a></li>
+                                  <li><a href="#">Graphics Design</a></li>
+                                  <li><a href="#">Others</a></li>
+                              </ul>  
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <h5 class="Footer-headlink">Useful link</h5>
+                      <hr>
+                      <div class="container">
+                          <div class="row justify-content-start">
+                             <ul>
+                                  <li><a href="#">Web Design</a></li>
+                                  <li><a href="#">Web Developer</a></li>
+                                  <li><a href="#">Engineering</a></li>
+                                  <li><a href="#">Graphics Design</a></li>
+                                  <li><a href="#">Others</a></li>
+                              </ul>  
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+
+
+      <!--footer copyright-->
+
+      <div class="row justify-content-center">
+          <p class="small">© 2020 All Rights Reserved</p>
+      </div>
+      
+
+      
+  </div>
+</footer>
+
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   </body>
 </html>
